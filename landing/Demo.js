@@ -4,13 +4,15 @@ const relineKeys = require('../reline-keys')
 const geomiconsKeys = require('../geomicons-keys')
 const simpleKeys = Object.keys(require('../simple-icons'))
 const mdKeys = Object.keys(require('../material-design-icons'))
+const envoyKeys = Object.keys(require('../envoy-icons'))
 const Pre = require('./Pre')
 
 const keys = [
   ...relineKeys,
   ...geomiconsKeys,
   ...simpleKeys,
-  ...mdKeys
+  ...mdKeys,
+  ...envoyKeys
 ]
 
 const len = keys.length

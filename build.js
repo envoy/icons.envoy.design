@@ -6,6 +6,12 @@ const path = require('path')
 const cheerio = require('cheerio')
 const geomiconsKeys = require('./geomicons-keys')
 
+
+// Envoy Icons
+const envoyDir = path.join(__dirname, 'icons')
+const envoyFiles = fs.readdirSync(envoyDir)
+  .filter(f => /\.svg$/.test(f))
+
 // Simple Icons
 const simpleDir = path.join(__dirname, 'node_modules', 'simple-icons#gh-pages', 'icons')
 const simpleFiles = fs.readdirSync(simpleDir)
@@ -104,3 +110,6 @@ const mdJs = `module.exports = ${JSON.stringify(mdFlattened)}`
 fs.writeFileSync('simple-icons.js', simpleJs)
 fs.writeFileSync('material-design-icons.js', mdJs)
 
+const envoyPaths = createPaths(envoyDir)(envoyFiles)
+const envoyJs = `module.exports = ${JSON.stringify(envoyPaths)}`
+fs.writeFileSync('envoy-icons.js', envoyJs)

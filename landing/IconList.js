@@ -5,6 +5,7 @@ const relineKeys = require('../reline-keys')
 const geomiconsKeys = require('../geomicons-keys')
 const simpleKeys = Object.keys(require('../simple-icons'))
 const mdKeys = Object.keys(require('../material-design-icons'))
+const envoyKeys = Object.keys(require('../envoy-icons'))
 const List = require('./List')
 const Panel = require('./Panel')
 const IconCard = require('./IconCard')
@@ -29,8 +30,17 @@ module.exports = () => (
       h('span', {}, '. ')
     ),
     h(Panel, {
-      title: 'Reline',
+      title: 'Envoy',
       open: true
+    },
+      h(List, {},
+        envoyKeys.map((name, i) => (
+          h(IconCard, { key: i, name })
+        ))
+      )
+    ),
+    h(Panel, {
+      title: 'Reline'
     },
       h(List, {},
         relineKeys.map((name, i) => (

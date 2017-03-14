@@ -9,6 +9,7 @@ const relineKeys = require('./reline-keys')
 const geomiconsKeys = require('./geomicons-keys')
 const simpleKeys = Object.keys(require('./simple-icons'))
 const mdKeys = Object.keys(require('./material-design-icons'))
+const envoyKeys = Object.keys(require('./envoy-icons'))
 
 const Root = require('./landing/Root')
 const card = require('./landing/card')
