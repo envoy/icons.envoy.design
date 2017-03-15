@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:#BEC0C3;}
+	.st2{fill:#282C36;}
+</style>
+<g id="Boundary">
+	<rect class="st0" width="48" height="48"/>
+</g>
+<g id="Design">
+	<g>
+		<g>
+			<path class="st1" d="M38,2v6H12c-0.83,0-1.58-0.34-2.12-0.88S9,5.83,9,5c0-1.66,1.34-3,3-3H38z"/>
+		</g>
+		<g>
+			<path class="st2" d="M40,7h-1V2c0-0.552-0.447-1-1-1H12C9.794,1,8,2.794,8,5v6H6c-2.206,0-4,1.794-4,4s1.794,4,4,4h2v2H6
+				c-2.206,0-4,1.794-4,4s1.794,4,4,4h2v2H6c-2.206,0-4,1.794-4,4s1.794,4,4,4h2v3.39C8,44.932,10.068,47,12.61,47H40
+				c0.553,0,1-0.448,1-1V8C41,7.448,40.553,7,40,7z M12,3h25v4H12c-0.532,0-1.034-0.208-1.413-0.587S10,5.533,10,5
+				C10,3.897,10.897,3,12,3z M6,17c-1.103,0-2-0.897-2-2s0.897-2,2-2h2v4H6z M6,27c-1.103,0-2-0.897-2-2s0.897-2,2-2h2v4H6z M6,37
+				c-1.103,0-2-0.897-2-2s0.897-2,2-2h2v4H6z M39,45H12.61C11.171,45,10,43.829,10,42.39V39h4v-2h-4v-8h4v-2h-4v-8h4v-2h-4V8.465
+				C10.602,8.814,11.287,9,12,9h27V45z"/>
+			<path class="st2" d="M19,23h13c0.553,0,1-0.448,1-1v-7c0-0.552-0.447-1-1-1H19c-0.553,0-1,0.448-1,1v7C18,22.552,18.447,23,19,23
+				z M20,16h11v5H20V16z"/>
+			<rect x="18" y="33" class="st2" width="11" height="2"/>
+			<rect x="18" y="27" class="st2" width="15" height="2"/>
+		</g>
+	</g>
+</g>
+</svg>

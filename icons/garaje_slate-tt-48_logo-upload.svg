@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:#D4D5D7;}
+	.st2{fill:#282C36;}
+</style>
+<g id="Boundary">
+	<rect class="st0" width="48" height="48"/>
+</g>
+<g id="Design">
+	<g id="XMLID_41_">
+		<g>
+			<g>
+				<path class="st1" d="M37,27.028c5.52,0,10,4.48,10,10.01c0,5.52-4.48,10-10,10c-5.53,0-10.01-4.48-10.01-10
+					C26.99,31.508,31.47,27.028,37,27.028z"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				<path class="st2" d="M37,48.038c-6.071,0-11.01-4.935-11.01-11c0-6.071,4.938-11.01,11.01-11.01c6.065,0,11,4.939,11,11.01
+					C48,43.103,43.065,48.038,37,48.038z M37,28.028c-4.968,0-9.01,4.042-9.01,9.01c0,4.962,4.042,9,9.01,9c4.963,0,9-4.038,9-9
+					C46,32.07,41.963,28.028,37,28.028z"/>
+			</g>
+			<g>
+				<path class="st2" d="M24.99,41.028h-20c-0.553,0-1-0.448-1-1v-34c0-0.552,0.447-1,1-1h38c0.553,0,1,0.448,1,1v20h-2v-19h-36v32
+					h19V41.028z"/>
+			</g>
+			<g>
+				<path class="st2" d="M40.283,37.735l-3.293-3.293l-3.293,3.293l-1.414-1.414l4-4c0.391-0.391,1.023-0.391,1.414,0l4,4
+					L40.283,37.735z"/>
+			</g>
+			<g>
+				<rect x="35.99" y="33.028" class="st2" width="2" height="9"/>
+			</g>
+			<g>
+				<rect x="4.99" y="9.028" class="st2" width="38" height="2"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
