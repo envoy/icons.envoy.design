@@ -78,7 +78,7 @@ module.exports = (req, res) => {
   const [ , name ] = pathname.split('/')
   const params = Object.assign(
     {
-      size: 16
+      size: 48
     },
     parseUrl(req.url),
     parseNumbers(query)

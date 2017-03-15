@@ -32,9 +32,9 @@ const Envoy = ({
 const Icon = (props) => {
   const {
     name,
-    color,
+    color = '#ef3934',
     style,
-    size = 16
+    size = 48
   } = props
 
   if (envoyKeys.includes(name)) {
