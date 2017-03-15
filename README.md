@@ -7,6 +7,10 @@ SVG icon microservice
 
 https://icon.now.sh/chevron
 
+### Minimize icons
+
+`svgo --enable convertShapeToPah -f icons`
+
 ### Size
 
 https://icon.now.sh/chevron/32
