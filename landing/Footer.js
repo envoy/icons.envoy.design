@@ -10,12 +10,12 @@ module.exports = () => (
   },
     h('p', {},
       h('a', {
-        href: 'https://github.com/jxnblk/microicon'
+        href: 'https://github.com/envoy/icons.envoy.design'
       }, 'GitHub'),
       h('span', {}, ' '),
       h('a', {
-        href: 'http://jxnblk.com'
-      }, 'Made by Jxnblk'),
+        href: 'https://github.com/jxnblk/microicon'
+      }, 'Forked from microicon'),
       h('span', {}, ' '),
       h('a', {
         href: 'https://zeit.co/now'

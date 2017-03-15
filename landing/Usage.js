@@ -6,28 +6,22 @@ module.exports = () => (
   h('section', { id: 'usage' },
     h('h2', {}, 'Usage'),
     h('img', {
-      src: '/chevron',
-      alt: 'chevron icon'
+      src: '/hot-air-balloon/',
+      alt: 'hot air balloon icon'
     }),
-    h(Pre, {}, `<img src='https:icon.now.sh/chevron' alt='chevron icon' />`),
+    h(Pre, {}, `<img src='https://icons.envoy.design/hot-air-balloon' alt='hot air balloon icon' />`),
     h('h3', {}, 'Size'),
     h('img', {
-      src: '/chevron/32',
-      alt: 'chevron icon'
+      src: '/hot-air-balloon/32',
+      alt: 'hot air balloon icon'
     }),
-    h(Pre, {}, `<img src='https:icon.now.sh/chevron/32' alt='chevron icon' />`),
+    h(Pre, {}, `<img src='https://icons.envoy.design/hot-air-balloon/32' alt='hot air balloon icon' />`),
     h('h3', {}, 'Color'),
     h('img', {
-      src: '/chevron/ff0000',
-      alt: 'chevron icon'
+      src: '/hot-air-balloon/ff0000',
+      alt: 'hot air balloon icon'
     }),
-    h(Pre, {}, `<img src='https:icon.now.sh/chevron/ff0000' alt='chevron icon' />`),
-    h('h3', {}, 'Direction'),
-    h('img', {
-      src: '/chevron/down',
-      alt: 'chevron icon'
-    }),
-    h(Pre, {}, `<img src='https:icon.now.sh/chevron/down' alt='chevron icon' />`)
+    h(Pre, {}, `<img src='https://icons.envoy.design/hot-air-balloon/ff0000' alt='hot air balloon icon' />`)
   )
 )
 

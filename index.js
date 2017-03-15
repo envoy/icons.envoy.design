@@ -5,10 +5,6 @@ const url = require('url')
 const { createElement: h } = require('react')
 const { renderToStaticMarkup } = require('react-dom/server')
 const Icon = require('./Icon')
-const relineKeys = require('./reline-keys')
-const geomiconsKeys = require('./geomicons-keys')
-const simpleKeys = Object.keys(require('./simple-icons'))
-const mdKeys = Object.keys(require('./material-design-icons'))
 const envoyKeys = Object.keys(require('./envoy-icons'))
 
 const Root = require('./landing/Root')
@@ -16,51 +12,7 @@ const card = require('./landing/card')
 
 const doctype = '<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">'
 
-const iconsLength = relineKeys.length
-  + geomiconsKeys.length
-  + simpleKeys.length
-  + mdKeys.length
-
-const usage = `
-microicon
-
-SVG icon microservice
-
-Usage:
-https://icon.now.sh/chevron
-
-Size:
-https://icon.now.sh/chevron/32
-
-Color:
-https://icon.now.sh/chevron/ff0000
-
-Read more:
-https://github.com/jxnblk/microicon
-
-Made by jxnblk.com
-
-${iconsLength} Icons:
-
-  Reline
-
-  ${relineKeys.join('\n  ')}
-
-
-  Geomicons
-
-  ${geomiconsKeys.join('\n  ')}
-
-
-  Material Design
-
-  ${mdKeys.join('\n  ')}
-
-
-  Simple Icons
-
-  ${simpleKeys.join('\n  ')}
-`
+const iconsLength = envoyKeys.length
 
 const num = v => !isNaN(parseFloat(v)) ? parseFloat(v) : v
 
