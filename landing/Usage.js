@@ -21,7 +21,7 @@ module.exports = () => (
       src: '/hot-air-balloon/282c36',
       alt: 'hot air balloon icon'
     }),
-    h(Pre, {}, `<img src='https://icons.envoy.design/hot-air-balloon/ff0000' alt='hot air balloon icon' />`)
+    h(Pre, {}, `<img src='https://icons.envoy.design/hot-air-balloon/282c36' alt='hot air balloon icon' />`)
   )
 )
 
